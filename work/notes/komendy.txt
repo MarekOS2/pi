@@ -1,0 +1,11 @@
+zad 1.
+
+1. mkdir out 
+2. mkdir -p work/notes
+3. grep -Ei "error|warn" "system.log" > "/home/stud2025/5kulczyk/pi/out/warn_err.txt"
+
+
+zad 2.
+cat a.csv | tr -s '[:space:],;' '\n' |sort | uniq -c | sort -nr | head -10 > "/home/stud2025/5kulczyk/pi/out/top_values.txt"
+
+zad.3
