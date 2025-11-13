@@ -14,6 +14,8 @@ fi
     
 date "+%Y-%m-%d %H-%M-%S"
 
-printf "du -sh "$DIR"/* | sort -h | tail -5"
+OUT="$(du -sh "$DIR"/* 2>/dev/null | sort -h | tail -5)"
+
+printf '%s\n' "$OUT"
 
 exit 0
