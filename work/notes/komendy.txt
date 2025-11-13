@@ -1,0 +1,11 @@
+zad 1.
+
+1. mkdir out 
+2. mkdir -p work/notes
+3. grep -Ei "error|warn" "system.log" > "/home/stud2025/5kulczyk/pi/out/warn_err.txt"
+
+
+zad 2.
+
+
+zad.3
